@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jincoco\\Desktop\\MailKitChatgpt\\MailKitChatgpt\\MailKitChatgpt.csproj": {}
+    "C:\\Users\\first\\Desktop\\ChatGPT.Net_with_MailKit\\MailKitChatgpt\\MailKitChatgpt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jincoco\\Desktop\\MailKitChatgpt\\MailKitChatgpt\\MailKitChatgpt.csproj": {
+    "C:\\Users\\first\\Desktop\\ChatGPT.Net_with_MailKit\\MailKitChatgpt\\MailKitChatgpt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jincoco\\Desktop\\MailKitChatgpt\\MailKitChatgpt\\MailKitChatgpt.csproj",
+        "projectUniqueName": "C:\\Users\\first\\Desktop\\ChatGPT.Net_with_MailKit\\MailKitChatgpt\\MailKitChatgpt.csproj",
         "projectName": "MailKitChatgpt",
-        "projectPath": "C:\\Users\\Jincoco\\Desktop\\MailKitChatgpt\\MailKitChatgpt\\MailKitChatgpt.csproj",
-        "packagesPath": "C:\\Users\\Jincoco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jincoco\\Desktop\\MailKitChatgpt\\MailKitChatgpt\\obj\\",
+        "projectPath": "C:\\Users\\first\\Desktop\\ChatGPT.Net_with_MailKit\\MailKitChatgpt\\MailKitChatgpt.csproj",
+        "packagesPath": "C:\\Users\\first\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\first\\Desktop\\ChatGPT.Net_with_MailKit\\MailKitChatgpt\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jincoco\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\first\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -76,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

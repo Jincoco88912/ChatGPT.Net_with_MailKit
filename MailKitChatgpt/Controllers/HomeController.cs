@@ -42,7 +42,7 @@ namespace MailKitChatgpt.Controllers
                     // MailKit
                     // 連線並進行身份驗證
                     client.Connect("imap.gmail.com", 993, true);
-                    client.Authenticate("dogedogman.god@gmail.com", "fyfryyxehmpdzgio");
+                    client.Authenticate("@gmail.com", "");
 
                     // 開啟收件夾權限
                     var inbox = client.Inbox;
@@ -98,7 +98,7 @@ namespace MailKitChatgpt.Controllers
 
         public async Task<string> ChatGPT(string askSomething)
         {
-            var bot = new ChatGpt("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 ");
+            var bot = new ChatGpt("");
 
             var response = await bot.Ask(askSomething);
 
@@ -110,5 +110,5 @@ namespace MailKitChatgpt.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-    }
+    } 
 }
